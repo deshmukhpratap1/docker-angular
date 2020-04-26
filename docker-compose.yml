@@ -1,0 +1,10 @@
+version: '3'
+services:
+  docker-rest:
+    image: 'docker-java-hello-world-app'
+    ports:
+      - "8080:8080"
+  docker-ui:
+    image: 'docker-angular-ui'
+    ports:
+      - "4200:4200"
